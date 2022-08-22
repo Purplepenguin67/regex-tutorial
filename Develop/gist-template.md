@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+This tutorial is going to explain the use of regex to match emails using the expression /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/. This is useful when validating emails using web applications and technologies.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex is a sequence of characters that specifies a search pattern in text. Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation. Regular expression techniques are developed in theoretical computer science and formal language theory. This tutorial will go over the components of a regex and how it applies to matching an email.
 
 ## Table of Contents
 
@@ -45,5 +45,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Look-ahead and Look-behind
 
 ## Author
+
+- [@Douglas Snodgrass](https://www.github.com/purplepenguin67)
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
