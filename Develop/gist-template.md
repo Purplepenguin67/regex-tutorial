@@ -10,7 +10,6 @@ Regex is a sequence of characters that specifies a search pattern in text. Usual
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
@@ -24,25 +23,46 @@ Regex is a sequence of characters that specifies a search pattern in text. Usual
 
 ### Anchors
 
+The caret anchor ^ signafies the beginning of the text. $ is the dollar achor that matches the end of the text.
+
 ### Quantifiers
 
-### OR Operator
+{2,6} are our quantifiers for this regex. When you append it to a character or character class, it specifies how many characters or character classes you want to match. The + operator, which will connect the users email name + email service + .com. 
+
 
 ### Character Classes
 
+A character class is a special notation that matches any symbol from a certain set. The character class in this expression is \d, which matches a single characters that is a digit from 0-9.
+
 ### Flags
+
+A flag changes the default searching behavior of a regular expression. It makes a regex search in a different way. 
 
 ### Grouping and Capturing
 
+The capturing groups in this are ([a-z0-9_\.-]+), ([\da-z\.-]+), and ([a-z\.]{2,6}). It allows to get a part of the match as a separate item in the result array. ([a-z0-9_\.-]+) that matches the user email name. The second capturing group is ([\da-z\.-]+) which will match the email service. Then lastly, capture group #3 is ([a-z\.]{2,6}) to capture the website domain.
+
 ### Bracket Expressions
 
+A bracket expression is a list of characters enclosed by ‘[’ and ‘]’. The expressions in this regex are [a-z\.] which matches any character a-z(case senstive) and the character ". [\da-z\.-], which is matching a single digit from 0-9, any character a-z (case senstive), and the characters "." and "-".; ". And a-z0-9_\.-], which is matching any letter a-z and is case senstive. It also matches a character 0-9 and matches the characters "_" , "-" , and ".".
+
+
+ 
 ### Greedy and Lazy Match
+
+
 
 ### Boundaries
 
+
+
 ### Back-references
 
+
+
 ### Look-ahead and Look-behind
+
+
 
 ## Author
 
